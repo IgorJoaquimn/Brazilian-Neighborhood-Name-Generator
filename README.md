@@ -1,6 +1,8 @@
 # Named Entity Generation using PyTorch
 
-This project implements an autoregressive token-level language model using PyTorch. The autoregressive token-level language model serves as the foundation for more recent architectures, such as GPT-2 and other large language models (LLMs). These models build upon the principles of autoregression, leveraging self-attention mechanisms and transformer architectures to capture long-range dependencies and generate coherent sequences of tokens. In this work, the approach is more simpler, given the embedding in the context-window, we use a simple MLP to predict the next token in a self-supervised manner.
+This project implements an autoregressive token-level language model using PyTorch following [Bengio et al. 2000](http://dx.doi.org/10.1162/153244303322533223). The autoregressive token-level language model serves as the foundation for more recent architectures, such as GPT-2 and other large language models (LLMs). These models build upon the principles of autoregression, leveraging self-attention mechanisms and transformer architectures to capture long-range dependencies and generate coherent sequences of tokens. In this work, the approach is more simpler, given the embedding in the context-window, we use a simple MLP to predict the next token in a self-supervised manner.
+
+this work is influenced by [karpathy makemore](https://github.com/karpathy/makemore)
 
 ## Dataset
 
